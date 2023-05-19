@@ -43,4 +43,9 @@ public class Product {
         quantity = this.quantity;
     }
 
+    @Override
+    public String toString() {
+        return "O produto "+ this.getName() +" está custando R$ " + this.getPrice()
+                + " e possuímos cerca de " + this.getQuantity();
+    }
 }
